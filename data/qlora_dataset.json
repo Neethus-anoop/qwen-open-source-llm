@@ -1,0 +1,27 @@
+[
+  {
+    "instruction": "Explain what an AI agent is.",
+    "input": "",
+    "output": "An AI agent is a software system that can understand a task, make decisions, and take actions to achieve a goal."
+  },
+  {
+    "instruction": "Explain machine learning simply.",
+    "input": "",
+    "output": "Machine learning is a method where computers learn patterns from data and use those patterns to make predictions or decisions."
+  },
+  {
+    "instruction": "What is an API?",
+    "input": "",
+    "output": "An API is a way for different software applications to communicate with each other and exchange data or perform actions."
+  },
+  {
+    "instruction": "What is Python used for in AI?",
+    "input": "",
+    "output": "Python is widely used in AI for data processing, machine learning, deep learning, automation, and building AI applications."
+  },
+  {
+    "instruction": "What is an LLM?",
+    "input": "",
+    "output": "A large language model is an AI model trained on large amounts of text to understand and generate human-like language."
+  }
+]

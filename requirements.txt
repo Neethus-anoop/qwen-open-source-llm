@@ -1,0 +1,10 @@
+torch
+transformers
+peft
+datasets
+trl
+accelerate
+bitsandbytes
+fastapi
+uvicorn
+ollama
