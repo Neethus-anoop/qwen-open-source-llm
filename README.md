@@ -1,62 +1,32 @@
-\# Qwen Open-Source LLM Project
+# Qwen Open-Source LLM Project
 
+A local AI project using **Qwen 2.5 0.5B Instruct**, Ollama, FastAPI, and QLoRA fine-tuning.
 
+## Features
 
-A hands-on open-source LLM project using \*\*Qwen 2.5, Ollama, FastAPI, Hugging Face Transformers, PEFT, and QLoRA\*\*.
+- Local Qwen 2.5 0.5B inference using Ollama
+- FastAPI inference API
+- `/generate` endpoint
+- QLoRA fine-tuning with PEFT and TRL
+- 4-bit NF4 quantization
+- LoRA adapter training
+- GPU-based training on NVIDIA Tesla T4
 
-
-
-\## Project Overview
-
-
-
-This project demonstrates:
-
-
-
-\- Local Qwen 2.5 inference using Ollama
-
-\- FastAPI-based inference API
-
-\- Swagger API documentation
-
-\- Hugging Face Transformers integration
-
-\- PEFT/LoRA configuration
-
-\- QLoRA 4-bit quantization training setup
-
-\- GPU-ready fine-tuning workflow
-
-
-
-\## Architecture
-
-
+## Project Structure
 
 ```text
-
-Client
-
-&#x20; |
-
-&#x20; v
-
-FastAPI
-
-&#x20; |
-
-&#x20; v
-
-Ollama
-
-&#x20; |
-
-&#x20; v
-
-Qwen 2.5 0.5B
-
-&#x20; |
+qwen-open-source-llm/
+├── app/
+│   └── main.py
+├── data/
+│   └── qlora_dataset.json
+├── src/
+│   └── train_qlora.py
+├── docs/
+├── notebooks/
+├── requirements.txt
+├── README.md
+└── .gitignore
 
 &#x20; v
 
